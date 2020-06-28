@@ -1,7 +1,7 @@
 name: Update gist with WakaTime stats
 on:
   schedule:
-    - cron: "*/10 * * * *" # 每10分钟 action，方便调试:https://z-index.me/2020/05/14/Github-Weekly-WakaTime/
+    - cron: "*/10 * * * *" # 每10分钟 action，方便调试:https://z-index.me/2020/05/14/Github-Weekly-WakaTime/；原来"0 0 * * *" 
 jobs:
   update-gist:
     runs-on: ubuntu-latest
