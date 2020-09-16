@@ -1,7 +1,7 @@
 name: Update gist with WakaTime stats
 on:
   schedule: # 参考https://github.com/import-yuefeng/waka-box/commit/e0914455c96e8fbaf06c5a118e6de730d9c22fcf
-    - cron: "1 * * * * *" # * */3 * * *  */10 * * * *每10分钟 action，方便调试:https://z-index.me/2020/05/14/Github-Weekly-WakaTime/；原来"0 0 * * *" 
+    - cron: "* */3 * * *" # * */3 * * *  */10 * * * *每10分钟 action，方便调试:https://z-index.me/2020/05/14/Github-Weekly-WakaTime/；原来"0 0 * * *" 
 jobs:
   update-gist:
     runs-on: ubuntu-latest
